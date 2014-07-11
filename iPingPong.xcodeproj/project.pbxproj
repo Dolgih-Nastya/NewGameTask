@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31015B4D1951A7EA0037E884 /* INCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31015B4B1951A7EA0037E884 /* INCMainViewController.m */; };
+		31015B4E1951A7EA0037E884 /* INCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31015B4C1951A7EA0037E884 /* INCMainViewController.xib */; };
+		31015B521951A9330037E884 /* INCSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31015B501951A9330037E884 /* INCSocialViewController.m */; };
+		31015B531951A9330037E884 /* INCSocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31015B511951A9330037E884 /* INCSocialViewController.xib */; };
+		31015B551951AA0E0037E884 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31015B541951AA0E0037E884 /* Social.framework */; };
+		31015B571951AA220037E884 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31015B561951AA220037E884 /* MessageUI.framework */; };
+		31015B5B1951B35B0037E884 /* INCLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31015B591951B35B0037E884 /* INCLevelViewController.m */; };
+		31015B5C1951B35B0037E884 /* INCLevelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31015B5A1951B35B0037E884 /* INCLevelViewController.xib */; };
+		F519FC16194F158100D3C5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC15194F158100D3C5FB /* Foundation.framework */; };
+		F519FC18194F158100D3C5FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC17194F158100D3C5FB /* CoreGraphics.framework */; };
+		F519FC1A194F158100D3C5FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC19194F158100D3C5FB /* UIKit.framework */; };
+		F519FC20194F158100D3C5FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F519FC1E194F158100D3C5FB /* InfoPlist.strings */; };
+		F519FC22194F158100D3C5FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F519FC21194F158100D3C5FB /* main.m */; };
+		F519FC26194F158100D3C5FB /* incAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F519FC25194F158100D3C5FB /* incAppDelegate.m */; };
+		F519FC28194F158100D3C5FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F519FC27194F158100D3C5FB /* Images.xcassets */; };
+		F519FC2F194F158100D3C5FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC2E194F158100D3C5FB /* XCTest.framework */; };
+		F519FC30194F158100D3C5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC15194F158100D3C5FB /* Foundation.framework */; };
+		F519FC31194F158100D3C5FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC19194F158100D3C5FB /* UIKit.framework */; };
+		F519FC39194F158100D3C5FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F519FC37194F158100D3C5FB /* InfoPlist.strings */; };
+		F519FC3B194F158100D3C5FB /* iPingPongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F519FC3A194F158100D3C5FB /* iPingPongTests.m */; };
+		F519FC47194F15F400D3C5FB /* INCStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F519FC45194F15F400D3C5FB /* INCStartViewController.m */; };
+		F519FC48194F15F400D3C5FB /* INCStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F519FC46194F15F400D3C5FB /* INCStartViewController.xib */; };
+		F519FC4D194F161200D3C5FB /* INCGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F519FC4B194F161200D3C5FB /* INCGameViewController.m */; };
+		F519FC4E194F161200D3C5FB /* INCGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F519FC4C194F161200D3C5FB /* INCGameViewController.xib */; };
+		F567032E194F26C800BD345F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F567032D194F26C800BD345F /* AudioToolbox.framework */; };
+		F5B302C4194F365C0048F5F6 /* aplause10.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5B302C3194F365C0048F5F6 /* aplause10.wav */; };
+		F5B302C6194F36620048F5F6 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5B302C5194F36620048F5F6 /* clap.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F519FC32194F158100D3C5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F519FC0A194F158100D3C5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F519FC11194F158100D3C5FB;
+			remoteInfo = iPingPong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31015B4A1951A7EA0037E884 /* INCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INCMainViewController.h; sourceTree = "<group>"; };
+		31015B4B1951A7EA0037E884 /* INCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INCMainViewController.m; sourceTree = "<group>"; };
+		31015B4C1951A7EA0037E884 /* INCMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INCMainViewController.xib; sourceTree = "<group>"; };
+		31015B4F1951A9330037E884 /* INCSocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INCSocialViewController.h; sourceTree = "<group>"; };
+		31015B501951A9330037E884 /* INCSocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INCSocialViewController.m; sourceTree = "<group>"; };
+		31015B511951A9330037E884 /* INCSocialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INCSocialViewController.xib; sourceTree = "<group>"; };
+		31015B541951AA0E0037E884 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		31015B561951AA220037E884 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		31015B581951B35B0037E884 /* INCLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INCLevelViewController.h; sourceTree = "<group>"; };
+		31015B591951B35B0037E884 /* INCLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INCLevelViewController.m; sourceTree = "<group>"; };
+		31015B5A1951B35B0037E884 /* INCLevelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INCLevelViewController.xib; sourceTree = "<group>"; };
+		F519FC12194F158100D3C5FB /* iPingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F519FC15194F158100D3C5FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F519FC17194F158100D3C5FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F519FC19194F158100D3C5FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F519FC1D194F158100D3C5FB /* iPingPong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPingPong-Info.plist"; sourceTree = "<group>"; };
+		F519FC1F194F158100D3C5FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F519FC21194F158100D3C5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F519FC23194F158100D3C5FB /* iPingPong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPingPong-Prefix.pch"; sourceTree = "<group>"; };
+		F519FC24194F158100D3C5FB /* incAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = incAppDelegate.h; sourceTree = "<group>"; };
+		F519FC25194F158100D3C5FB /* incAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = incAppDelegate.m; sourceTree = "<group>"; };
+		F519FC27194F158100D3C5FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F519FC2D194F158100D3C5FB /* iPingPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPingPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F519FC2E194F158100D3C5FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F519FC36194F158100D3C5FB /* iPingPongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPingPongTests-Info.plist"; sourceTree = "<group>"; };
+		F519FC38194F158100D3C5FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F519FC3A194F158100D3C5FB /* iPingPongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPingPongTests.m; sourceTree = "<group>"; };
+		F519FC44194F15F400D3C5FB /* INCStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INCStartViewController.h; sourceTree = "<group>"; };
+		F519FC45194F15F400D3C5FB /* INCStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INCStartViewController.m; sourceTree = "<group>"; };
+		F519FC46194F15F400D3C5FB /* INCStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INCStartViewController.xib; sourceTree = "<group>"; };
+		F519FC4A194F161200D3C5FB /* INCGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INCGameViewController.h; sourceTree = "<group>"; };
+		F519FC4B194F161200D3C5FB /* INCGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INCGameViewController.m; sourceTree = "<group>"; };
+		F519FC4C194F161200D3C5FB /* INCGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INCGameViewController.xib; sourceTree = "<group>"; };
+		F567032D194F26C800BD345F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F5B302C3194F365C0048F5F6 /* aplause10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aplause10.wav; sourceTree = "<group>"; };
+		F5B302C5194F36620048F5F6 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F519FC0F194F158100D3C5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31015B571951AA220037E884 /* MessageUI.framework in Frameworks */,
+				31015B551951AA0E0037E884 /* Social.framework in Frameworks */,
+				F567032E194F26C800BD345F /* AudioToolbox.framework in Frameworks */,
+				F519FC18194F158100D3C5FB /* CoreGraphics.framework in Frameworks */,
+				F519FC1A194F158100D3C5FB /* UIKit.framework in Frameworks */,
+				F519FC16194F158100D3C5FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F519FC2A194F158100D3C5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F519FC2F194F158100D3C5FB /* XCTest.framework in Frameworks */,
+				F519FC31194F158100D3C5FB /* UIKit.framework in Frameworks */,
+				F519FC30194F158100D3C5FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311880CD1956B75300FF8B18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				311880D01956B7A300FF8B18 /* Level */,
+				311880CF1956B79100FF8B18 /* Social */,
+				311880CE1956B77C00FF8B18 /* Main */,
+				F519FC49194F15FA00D3C5FB /* Game */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		311880CE1956B77C00FF8B18 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				31015B4A1951A7EA0037E884 /* INCMainViewController.h */,
+				31015B4B1951A7EA0037E884 /* INCMainViewController.m */,
+				31015B4C1951A7EA0037E884 /* INCMainViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		311880CF1956B79100FF8B18 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				31015B4F1951A9330037E884 /* INCSocialViewController.h */,
+				31015B501951A9330037E884 /* INCSocialViewController.m */,
+				31015B511951A9330037E884 /* INCSocialViewController.xib */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		311880D01956B7A300FF8B18 /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				31015B581951B35B0037E884 /* INCLevelViewController.h */,
+				31015B591951B35B0037E884 /* INCLevelViewController.m */,
+				31015B5A1951B35B0037E884 /* INCLevelViewController.xib */,
+			);
+			name = Level;
+			sourceTree = "<group>";
+		};
+		F519FC09194F158100D3C5FB = {
+			isa = PBXGroup;
+			children = (
+				F519FC1B194F158100D3C5FB /* iPingPong */,
+				F519FC34194F158100D3C5FB /* iPingPongTests */,
+				F519FC14194F158100D3C5FB /* Frameworks */,
+				F519FC13194F158100D3C5FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F519FC13194F158100D3C5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F519FC12194F158100D3C5FB /* iPingPong.app */,
+				F519FC2D194F158100D3C5FB /* iPingPongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F519FC14194F158100D3C5FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31015B561951AA220037E884 /* MessageUI.framework */,
+				31015B541951AA0E0037E884 /* Social.framework */,
+				F567032D194F26C800BD345F /* AudioToolbox.framework */,
+				F519FC15194F158100D3C5FB /* Foundation.framework */,
+				F519FC17194F158100D3C5FB /* CoreGraphics.framework */,
+				F519FC19194F158100D3C5FB /* UIKit.framework */,
+				F519FC2E194F158100D3C5FB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F519FC1B194F158100D3C5FB /* iPingPong */ = {
+			isa = PBXGroup;
+			children = (
+				F5670333194F289B00BD345F /* Resources */,
+				311880CD1956B75300FF8B18 /* Controllers */,
+				F519FC24194F158100D3C5FB /* incAppDelegate.h */,
+				F519FC25194F158100D3C5FB /* incAppDelegate.m */,
+				F519FC27194F158100D3C5FB /* Images.xcassets */,
+				F519FC1C194F158100D3C5FB /* Supporting Files */,
+			);
+			path = iPingPong;
+			sourceTree = "<group>";
+		};
+		F519FC1C194F158100D3C5FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F519FC1D194F158100D3C5FB /* iPingPong-Info.plist */,
+				F519FC1E194F158100D3C5FB /* InfoPlist.strings */,
+				F519FC21194F158100D3C5FB /* main.m */,
+				F519FC23194F158100D3C5FB /* iPingPong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F519FC34194F158100D3C5FB /* iPingPongTests */ = {
+			isa = PBXGroup;
+			children = (
+				F519FC3A194F158100D3C5FB /* iPingPongTests.m */,
+				F519FC35194F158100D3C5FB /* Supporting Files */,
+			);
+			path = iPingPongTests;
+			sourceTree = "<group>";
+		};
+		F519FC35194F158100D3C5FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F519FC36194F158100D3C5FB /* iPingPongTests-Info.plist */,
+				F519FC37194F158100D3C5FB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F519FC49194F15FA00D3C5FB /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F519FC44194F15F400D3C5FB /* INCStartViewController.h */,
+				F519FC45194F15F400D3C5FB /* INCStartViewController.m */,
+				F519FC46194F15F400D3C5FB /* INCStartViewController.xib */,
+				F519FC4A194F161200D3C5FB /* INCGameViewController.h */,
+				F519FC4B194F161200D3C5FB /* INCGameViewController.m */,
+				F519FC4C194F161200D3C5FB /* INCGameViewController.xib */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		F5670333194F289B00BD345F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5B302C5194F36620048F5F6 /* clap.wav */,
+				F5B302C3194F365C0048F5F6 /* aplause10.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F519FC11194F158100D3C5FB /* iPingPong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F519FC3E194F158100D3C5FB /* Build configuration list for PBXNativeTarget "iPingPong" */;
+			buildPhases = (
+				F519FC0E194F158100D3C5FB /* Sources */,
+				F519FC0F194F158100D3C5FB /* Frameworks */,
+				F519FC10194F158100D3C5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPingPong;
+			productName = iPingPong;
+			productReference = F519FC12194F158100D3C5FB /* iPingPong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F519FC2C194F158100D3C5FB /* iPingPongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F519FC41194F158100D3C5FB /* Build configuration list for PBXNativeTarget "iPingPongTests" */;
+			buildPhases = (
+				F519FC29194F158100D3C5FB /* Sources */,
+				F519FC2A194F158100D3C5FB /* Frameworks */,
+				F519FC2B194F158100D3C5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F519FC33194F158100D3C5FB /* PBXTargetDependency */,
+			);
+			name = iPingPongTests;
+			productName = iPingPongTests;
+			productReference = F519FC2D194F158100D3C5FB /* iPingPongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F519FC0A194F158100D3C5FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = inc;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					F519FC2C194F158100D3C5FB = {
+						TestTargetID = F519FC11194F158100D3C5FB;
+					};
+				};
+			};
+			buildConfigurationList = F519FC0D194F158100D3C5FB /* Build configuration list for PBXProject "iPingPong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F519FC09194F158100D3C5FB;
+			productRefGroup = F519FC13194F158100D3C5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F519FC11194F158100D3C5FB /* iPingPong */,
+				F519FC2C194F158100D3C5FB /* iPingPongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F519FC10194F158100D3C5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31015B531951A9330037E884 /* INCSocialViewController.xib in Resources */,
+				F519FC20194F158100D3C5FB /* InfoPlist.strings in Resources */,
+				F519FC4E194F161200D3C5FB /* INCGameViewController.xib in Resources */,
+				F5B302C4194F365C0048F5F6 /* aplause10.wav in Resources */,
+				F5B302C6194F36620048F5F6 /* clap.wav in Resources */,
+				31015B4E1951A7EA0037E884 /* INCMainViewController.xib in Resources */,
+				F519FC48194F15F400D3C5FB /* INCStartViewController.xib in Resources */,
+				31015B5C1951B35B0037E884 /* INCLevelViewController.xib in Resources */,
+				F519FC28194F158100D3C5FB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F519FC2B194F158100D3C5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F519FC39194F158100D3C5FB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F519FC0E194F158100D3C5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F519FC22194F158100D3C5FB /* main.m in Sources */,
+				31015B5B1951B35B0037E884 /* INCLevelViewController.m in Sources */,
+				F519FC4D194F161200D3C5FB /* INCGameViewController.m in Sources */,
+				F519FC47194F15F400D3C5FB /* INCStartViewController.m in Sources */,
+				31015B4D1951A7EA0037E884 /* INCMainViewController.m in Sources */,
+				31015B521951A9330037E884 /* INCSocialViewController.m in Sources */,
+				F519FC26194F158100D3C5FB /* incAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F519FC29194F158100D3C5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F519FC3B194F158100D3C5FB /* iPingPongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F519FC33194F158100D3C5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F519FC11194F158100D3C5FB /* iPingPong */;
+			targetProxy = F519FC32194F158100D3C5FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F519FC1E194F158100D3C5FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F519FC1F194F158100D3C5FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F519FC37194F158100D3C5FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F519FC38194F158100D3C5FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F519FC3C194F158100D3C5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F519FC3D194F158100D3C5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F519FC3F194F158100D3C5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPingPong/iPingPong-Prefix.pch";
+				INFOPLIST_FILE = "iPingPong/iPingPong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F519FC40194F158100D3C5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPingPong/iPingPong-Prefix.pch";
+				INFOPLIST_FILE = "iPingPong/iPingPong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F519FC42194F158100D3C5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPingPong.app/iPingPong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPingPong/iPingPong-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iPingPongTests/iPingPongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F519FC43194F158100D3C5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPingPong.app/iPingPong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPingPong/iPingPong-Prefix.pch";
+				INFOPLIST_FILE = "iPingPongTests/iPingPongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F519FC0D194F158100D3C5FB /* Build configuration list for PBXProject "iPingPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F519FC3C194F158100D3C5FB /* Debug */,
+				F519FC3D194F158100D3C5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F519FC3E194F158100D3C5FB /* Build configuration list for PBXNativeTarget "iPingPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F519FC3F194F158100D3C5FB /* Debug */,
+				F519FC40194F158100D3C5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F519FC41194F158100D3C5FB /* Build configuration list for PBXNativeTarget "iPingPongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F519FC42194F158100D3C5FB /* Debug */,
+				F519FC43194F158100D3C5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F519FC0A194F158100D3C5FB /* Project object */;
+}
